@@ -1,0 +1,429 @@
+body {
+  overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#name span:hover {
+  color: red;
+}
+
+#mainDiv #one {
+  padding-top: 100px;
+}
+#mainDiv > section {
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+  padding-top: 50px;
+}
+#mainDiv > section > h2 {
+  color: midnightblue;
+}
+#mainDiv > section > p {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
+    sans-serif;
+}
+
+#mainDiv {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding-left: 10px;
+}
+
+.about {
+  width: 100vw;
+  line-height: 25px;
+  background-color: #eee;
+  padding: 10px;
+  font-weight: lighter;
+}
+.aboutServices {
+  padding-left: 20px;
+  margin-bottom: 15px;
+  width: 100vw;
+  align-items: flex-start;
+  list-style-type: decimal;
+  font-weight: 700;
+  font-size: large;
+  color: gray;
+}
+
+/* NEW UPDATED FORM*/
+.ma {
+  color: greenyellow;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  width: auto;
+  font-size: xx-large;
+  margin-bottom: 20px;
+  font-family: -apple-system, Arial, Helvetica, sans-serif;
+}
+.secondpart {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.5px;
+}
+
+.Romashell {
+  display: flex;
+  font-weight: 900;
+  font-size: large;
+  color: black;
+}
+
+.marcobar {
+  background-color: green;
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+a {
+  text-decoration: none;
+}
+.wb {
+  font-size: x-large;
+  border: none;
+  background-color: transparent;
+  margin: 5px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wb2 {
+  font-size: small;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.marcoM {
+  position: absolute;
+  font-weight: lighter;
+  font-style: normal;
+  left: 40%;
+  margin-top: 15px;
+}
+
+.quote {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 15%;
+  color: white;
+  font-size: small;
+  font-style: italic;
+  font-family: -apple-sytem, arial;
+  font-size: x-large;
+  animation: 20s text none;
+}
+
+@keyframes text {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  50% {
+    transform: none;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(1000px);
+    opacity: 1;
+  }
+}
+
+.homePage {
+  display: flex;
+}
+
+/* courses page*/
+
+.listOfObjectives {
+  list-style: circle;
+  display: flex;
+  flex-direction: column;
+  position: static;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 20px;
+  line-height: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+/* about page*/
+
+.abou {
+  margin-left: 25px;
+  padding-top: 100px;
+  color: white;
+}
+
+
+body {
+  margin-bottom: 1000px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  clip-path: stroke-box;
+  font-family: garamond;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 6%;
+  align-items: center;
+}
+.navLinks {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navLinks ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.navLinks ul li a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.navLinks ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  display: block;
+  margin: auto;
+  background: greenyellow;
+  transition: 0.5s;
+}
+.navLinks ul li:hover::after {
+  width: 100%;
+}
+.textBox {
+  width: 50%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.textBox h1 {
+  font-size: 62px;
+}
+.textBox p {
+  margin: 10px 0 40px;
+  font-size: 24px;
+  color: black;
+}
+.heroBtn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #fff;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  background: black;
+  cursor: pointer;
+  position: relative;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+.heroBtn:hover {
+  border: 1px solid blue;
+  background: #f44336;
+  color: rgb(3, 3, 83);
+}
+.span {
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: greenyellow;
+  display: flex;
+  cursor: pointer;
+}
+.fSlash {
+  transform: translateY(10px) rotate(45deg);
+  background-color: greenyellow;
+  width: 20px;
+  height: 3px;
+  padding: auto;
+  display: flex;
+}
+.bSlash {
+  transform: translateY(-10px) rotate(-45deg);
+  background-color: greenyellow;
+  width: 20px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: greenyellow;
+  display: flex;
+  cursor: pointer;
+}
+.aSlash {
+  opacity: 0;
+}
+.menu,
+.close {
+  cursor: pointer;
+  display: none;
+  margin-top: 20px;
+}
+.menu {
+  padding: 4px;
+}
+
+footer {
+  height: 50vh;
+  background-color: rgb(0, 20, 20);;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+footer p:nth-child(1){
+  color: white;
+  font-size: large;
+  padding-bottom: 5px;
+}
+footer p{
+  color: #737373;
+  font-size: small;
+  padding: 2px;
+  font-family: Helvetica, sans-serif , 'source sans pro' , sans-serif;
+}
+.copyright {
+  color: white;
+}
+
+#line{
+background-color: #737373;
+padding: 1px;
+border: none;
+}
+
+@media (max-width: 700px) {
+  .textBox h1 {
+    font-size: 32px;
+  }
+  .navLinks {
+    position: absolute;
+    height: 100vh;
+    align-items: flex-start;
+    justify-content: flex-end;
+    top: -1000px;
+    right: 0;
+    width: 100px;
+    background-color: green;
+    z-index: 2;
+    text-align: left;
+    transition: 0.9s;
+  }
+  .navLinks ul li,
+  .close,
+  .menu {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .marcoMashonga {
+    font-size: medium;
+  }
+  .textBox {
+    width: 90%;
+  }
+  .links a img {
+    width: 15px;
+    margin: 0;
+  }
+}
+@media (max-width: 430px) {
+  .wb {
+    background-color: transparent;
+  }
+  .about {
+    display: none;
+  }
+}
+@media (max-height: 500px) {
+  body {
+    text-size-adjust: auto;
+  }
+  .links {
+    background-color: transparent;
+    padding-left: 5px;
+    color: white;
+  }
+}
+/* contact section */
+.novid p:nth-child(1){
+  color: #ED6948;
+   font-size: 5vw;
+   padding-top: 20vh;
+}
+.novid p:nth-child(2){
+  color: navy;
+  font-size: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.novid p:last-child{
+  margin-bottom: 20px;
+}
+.bookNow {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #fff;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  background: green;
+  cursor: pointer;
+  position: relative;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+.bookNow:hover {
+  border: 1px solid blue;
+  background: greenyellow;
+  color: rgb(3, 3, 83);
+}
